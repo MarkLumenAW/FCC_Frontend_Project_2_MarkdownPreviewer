@@ -1,0 +1,35 @@
+#root {
+  max-width: 1280px;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+  padding: 1.5rem;
+}
+
+pre{
+  background-color: #fff;
+  padding: 1em;
+  border-radius: 8px;}
+
+  #preview table {
+    border-collapse: collapse;  
+    margin: 1rem 0;
+  }
+
+  #preview th, #preview td {
+    border: 2px solid black;  
+    padding: 6px;  
+  }
+
+  .hljs-keyword {
+    color: rgb(60, 103, 222);
+  }
