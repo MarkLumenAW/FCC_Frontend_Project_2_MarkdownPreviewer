@@ -1,5 +1,5 @@
 
-# FCC_Frontend_Project2
+# FCC_Frontend_Project 2
 
 This project is part of the FreeCodeCamp's Front End Development Libraries course. It focuses on utilizing React and Redux libraries to create an application that allows users to write Markdown and view the rendered HTML.
 
