@@ -20,7 +20,6 @@ export default function Editor(props) {
     iconToggler = false;
   }
 
-
   return (
     <Container>
       <BasicHeader
