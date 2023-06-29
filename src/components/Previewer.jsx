@@ -42,8 +42,8 @@ marked.use({ breaks: true })
         id="preview"
         style={{
           minHeight: '15rem',
-          backgroundColor: '#ece1dc',
-          padding: '1rem',
+          backgroundColor: '#f1f5f9',
+          padding: '1.5rem',
           textAlign: 'left',
           overflow: 'auto',
         }}

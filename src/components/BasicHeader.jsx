@@ -8,7 +8,7 @@ export default function BasicHeader(props) {
 
   const [iconColor, setIconColor] = useState('white');
   const handleMouseEnter = () => {
-    setIconColor('#780000'); 
+    setIconColor('#e2e8f0'); 
   };
 
   const handleMouseLeave = () => {
@@ -20,12 +20,12 @@ export default function BasicHeader(props) {
       display: 'flex',
       justifyContent: 'space-between',
       alignItems: 'center',
-      height: '2rem',
-      backgroundColor: 'rgba(202, 122, 44, 1)',
+      height: '3rem',
+      backgroundColor: '#0369a1',
       fontWeight: 'bold',
       color: 'white',
     }}>
-      <div className="header" style={{ padding: '0 1rem' }}>{props.name}</div>
+      <div className="header" style={{ padding: '0 1rem', fontWeight:'400' }}>{props.name}</div>
       <div className="close-icon" style={{ padding: '0 1rem' }} >
         <span
           style={{ color: iconColor, cursor: 'pointer',  transition: '0.3s'  }}

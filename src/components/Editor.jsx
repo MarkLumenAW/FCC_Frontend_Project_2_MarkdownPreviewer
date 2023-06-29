@@ -30,9 +30,9 @@ export default function Editor(props) {
       <textarea id="editor" style={{
         height: heightToggler,
         border: 'none',
-        backgroundColor: '#ece1dc',
-        padding: '1rem',
-        outlineColor: '#9f8b82',
+        backgroundColor: '#f1f5f9',
+        padding: '1.5rem',
+        // outlineColor: '#9f8b82',
       }}
         value={content} onChange={(e) => {
           dispatch(updateMarkdown({ content: e.target.value }));

@@ -6,6 +6,8 @@ export default function Container(props) {
       flexDirection: 'column',
       marginBottom: '2rem',
       boxShadow: '0 0 20px 0 rgba(0,0,0,0.2)',
+      borderRadius: '0.75rem',
+      overflow: 'hidden',
     }}>
        {props.children}
     </div>
