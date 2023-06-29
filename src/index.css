@@ -22,7 +22,7 @@ body {
   min-width: 320px;
   min-height: 100vh;
   background-color: #cbd5e1;
-  background: radial-gradient(circle at center, #ffffff, #f0f3f6, #dfe4e8, #cbd5e1);
+  background: radial-gradient(circle at center, #5a788f, #2d5678, #01344c, #001d2f);
 }
 
 body::-webkit-scrollbar {

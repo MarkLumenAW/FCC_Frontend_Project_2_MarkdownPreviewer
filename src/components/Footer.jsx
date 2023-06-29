@@ -12,7 +12,7 @@ export default function Footer(props) {
       <span style={{
         fontSize: '0.75rem',
         letterSpacing: '-0.08em',
-        color: '#475569'
+        color: '#94a3b8'
       }}>Designed and Coded by Alex Wang</span>
       <div style={{
         display: 'flex',
@@ -26,14 +26,14 @@ export default function Footer(props) {
           justifyContent: 'center',
           alignItems: 'center',
         }}>
-          <Icon icon="mdi:github" color="#475569" width="1rem" />
+          <Icon icon="mdi:github" color="#94a3b8" width="1rem" />
         </a>
         <a href="https://www.linkedin.com/in/pengcheng-wang-0412b0151" target="_blank" rel="noopener noreferrer" style={{
           display: 'flex',
           justifyContent: 'center',
           alignItems: 'center',
         }}>
-          <Icon icon="mdi:linkedin" color="#475569" width="1rem" />
+          <Icon icon="mdi:linkedin" color="#94a3b8" width="1rem" />
         </a>
       </div>
     </section>

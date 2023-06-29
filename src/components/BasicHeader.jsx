@@ -21,7 +21,7 @@ export default function BasicHeader(props) {
       justifyContent: 'space-between',
       alignItems: 'center',
       height: '3rem',
-      backgroundColor: '#0369a1',
+      backgroundColor: '#0891b2',
       fontWeight: 'bold',
       color: 'white',
     }}>
